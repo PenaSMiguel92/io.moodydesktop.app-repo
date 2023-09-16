@@ -21,8 +21,8 @@ public class Label extends JLabel {
         this.setBackground(Color.black);
         this.setOpaque(true); //display background color.
         this.setBorder(border);
-        this.setVerticalAlignment(JLabel.CENTER); //set vertical position of icon+text within label
-        this.setHorizontalAlignment(JLabel.CENTER); //set horizontal position icon+text within label
+        //this.setVerticalAlignment(JLabel.BOTTOM); //set vertical position of icon+text within label
+        //this.setHorizontalAlignment(JLabel.RIGHT); //set horizontal position icon+text within label
         //label.setBounds(100, 100, 250, 250);
     }
     
